@@ -1,0 +1,302 @@
+body {
+  margin: 0 !important;
+  width: 100%;
+  min-height: 100vh;
+  color: #5e676f !important;
+  background: inherit !important;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol";
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.4285714286;
+  text-align: left;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  cursor: pointer !important;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+  background-color: #f5f5f5;
+  cursor: pointer !important;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: #14bae4 linear-gradient(135deg, #14bae4, #14e4a6);
+  cursor: pointer !important;
+}
+
+.flex.scrollable.hover li.active:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  border-color: #448bff !important;
+  border-width: 3px;
+  border-left-style: solid;
+}
+
+h2.title-color {
+  color: #fff;
+}
+
+div.text-color {
+  color: #fff;
+}
+
+.swal2-cancel {
+  color: #000 !important;
+}
+
+.mini-size {
+  width: 4.5rem !important;
+  min-width: 0;
+}
+
+.mini-size .nav > li > a .nav-icon {
+  float: none;
+  line-height: 2.5rem;
+  font-size: 1rem;
+  margin: 0 auto;
+  position: relative;
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+.mini-size .nav > li > a .nav-caret,
+.mini-size .nav > li > a .nav-text {
+  display: none;
+}
+
+.mini-size .nav .nav-sub {
+  display: none;
+}
+
+.mini-size .nav-fold {
+  padding: 0;
+  justify-content: center;
+}
+
+.mini-size .hidden-folded {
+  display: none;
+}
+
+.mini-size .navbar .navbar-brand .w-36.avatar.gd-info {
+  margin-left: 4px !important;
+}
+
+.cursor-pointer {
+  cursor: pointer !important;
+}
+/*.padding .css-yk16xz-control {*/
+/*  background-color: transparent !important;*/
+/*  border-style: none !important;*/
+/*  position: absolute !important;*/
+/*  width: 100% !important;*/
+/*  top: -1px !important;*/
+/*  right: 2px !important;*/
+/*}*/
+
+/*.padding .css-1pahdxg-control {*/
+/*  background-color: transparent !important;*/
+/*  border-style: none !important;*/
+/*  position: absolute !important;*/
+/*  width: 100% !important;*/
+/*  top: -1px !important;*/
+/*  right: 2px !important;*/
+/*  outline: none !important;*/
+/*  box-shadow: none !important;*/
+/*}*/
+
+.process-select-form.css-yk16xz-control {
+  position: relative !important;
+  background-color: #fff !important;
+  border: 1px solid #d9d9d9 !important;
+  border-radius: 2px !important;
+  -webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1) !important;
+  transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1) !important;
+}
+
+.process-select-form .css-1pahdxg-control {
+  border-style: none;
+  position: relative !important;
+  background-color: #fff !important;
+  border: 1px solid #d9d9d9 !important;
+  border-radius: 2px !important;
+  -webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1) !important;
+  transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1) !important;
+}
+
+/* .ant-modal-mask {
+  z-index: 9999 !important;
+} */
+
+/* .ant-modal-wrap {
+  z-index: 99999 !important;
+} */
+
+.sidenav .nav li li a .nav-text {
+  padding: 0.4375rem 0;
+}
+
+.sidenav .nav li li a {
+  font-size: 0.8rem !important;
+  line-height: 2rem !important;
+  padding-left: 3rem !important;
+}
+
+.pagination a {
+  padding: 0.4rem 0.75rem !important;
+  border: 1px solid rgba(160, 175, 185, 0.15);
+}
+
+.v-middle.active td {
+  background-color: rgba(19, 24, 44, 0.075) !important;
+}
+
+.active .rt-td {
+  background-color: rgba(19, 24, 44, 0.075) !important;
+}
+.row-active {
+  background-color: rgba(19, 24, 44, 0.075) !important;
+}
+.text-hover:hover td {
+  background-color: #c9dde7 !important;
+}
+.text-hover:hover .rt-td {
+  background-color: rgba(19, 24, 44, 0.075) !important;
+}
+/*.css-yk16xz-control,*/
+/*.css-1pahdxg-control {*/
+/*  background: transparent !important;*/
+/*  border: transparent !important;*/
+/*  position: absolute !important;*/
+/*  width: 100%;*/
+/*  top: -3px;*/
+/*  right: 2px;*/
+/*  outline: none !important;*/
+/*  box-shadow: none !important;*/
+/*}*/
+/* .ant-drawer {
+  z-index: 99999 !important;
+} */
+.ant-drawer-body {
+  overflow: hidden !important;
+}
+
+.sc-hARARD.cxvLWq {
+  height: 100% !important;
+}
+
+.-headerGroups {
+  display: none !important;
+}
+.rt-table {
+  color: #99a0ac !important;
+}
+
+.rt-tbody {
+  margin-bottom: 10px;
+}
+/*.ReactTable {*/
+/*    border: 0 !important;*/
+/*}*/
+/*.ReactTable .rt-thead.-header {*/
+/*    box-shadow: none !important;*/
+/*}*/
+/*.rt-td{*/
+/*    border-right: 0 !important;*/
+/*}*/
+/*.ReactTable .rt-tbody .rt-tr-group {*/
+/*    border-bottom: 0 !important;*/
+/*}*/
+/*.ReactTable .rt-thead .rt-th, .ReactTable .rt-thead .rt-td {*/
+/*    border-right: 0 !important;*/
+/*}*/
+/*.rthfc .-filters .rt-th.rthfc-th-fixed-left-last, .rthfc .rt-th.rthfc-th-fixed-left-last, .rthfc .rt-td.rthfc-td-fixed-left-last {*/
+/*    border-right: 1px solid #ccc !important;*/
+/*}*/
+.gzSIKI {
+  height: 100% !important;
+}
+.css-1wa3eu0-placeholder {
+  color: rgb(185, 181, 181) !important;
+}
+
+.bg-blue {
+  background-color: #00aaff !important;
+}
+.bg-blue-light {
+  background-color: #80d4ff !important;
+  color: #fff;
+}
+.bg-blue-dark {
+  background-color: #0066ff !important;
+  color: #fff;
+}
+
+.bg-red {
+  background-color: #ff3300e1 !important;
+  color: #fff;
+}
+.bg-red-light {
+  background-color: #ff000086 !important;
+  color: #fff;
+}
+
+.bg-red-dark {
+  background-color: #ff0000 !important;
+  color: #fff;
+}
+/* Problem  Module*/
+.problem-table .rt-thead {
+  color: #000;
+  font-weight: 600;
+}
+.problem-table .rt-td {
+  color: #000;
+}
+.problem-filter-aside .nav-text {
+  color: #000;
+  font-weight: 600;
+}
+
+.problem-filter-aside .badge {
+  font-weight: 700;
+}
+.problem-filter-aside .header {
+  font-size: 1.25rem;
+  color: #000;
+  font-weight: 600;
+}
+.my-task-card .ant-card-body {
+  padding: 8px;
+}
+
+.uploadTable {
+  background: #fffbe6;
+}
+/* .my-task-card .ant-tabs > .ant-tabs-nav .ant-tabs-nav-wrap {
+  overflow: auto !important;
+} */
+.my-task-card .ant-tabs-card > .ant-tabs-nav .ant-tabs-tab {
+  padding: 0 !important ;
+}
+.my-task-card .ant-badge-count {
+  font-size: 10px !important;
+  right: 16px !important;
+  border-radius: 5px !important;
+}
+.ant-tabs-top > .ant-tabs-nav {
+  margin: 0 !important;
+}
+.vertical-none svg {
+  vertical-align: baseline;
+}

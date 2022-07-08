@@ -1,0 +1,12 @@
+.link-form-container{
+    display: flex;
+}
+.xb-logo-login{
+    width:120px;
+}
+
+.xb-iabs-help-img{
+    padding-right: 20px;
+    width: 50%;
+    height:100%;
+}

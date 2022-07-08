@@ -1,0 +1,21 @@
+version: '3.2'
+services:
+  app:
+    image: ${REGISTRY_URL}/${CONTAINER_NAME}-app:${APP_VERSION}.${BUILD_NUMBER}
+    container_name: ${CONTAINER_NAME}-app
+    build:
+      context: .
+      args:
+        NODE_VERSION: ${NODE_VERSION}
+        HTTP_PROXY:  ${HTTP_PROXY}
+    env_file: .env
+    restart: always
+    ports:
+      - target: ${NGINX_FRONTEND_PORT}
+        published: ${NGINX_FRONTEND_PORT}
+        protocol: tcp
+        mode: host
+    command: sh -c "envsubst '$$NGINX_FRONTEND_HOST $$NGINX_FRONTEND_PORT $$NGINX_FRONTEND_DIR $$DOMAIN_PORT $$CONTAINER_NAME' < /etc/nginx/conf.d/nginx.template > /etc/nginx/conf.d/default.conf && nginx -g 'daemon off;'"
+    deploy:
+      mode: replicated
+      replicas: 1

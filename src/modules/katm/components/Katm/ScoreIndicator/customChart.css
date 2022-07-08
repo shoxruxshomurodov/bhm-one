@@ -1,0 +1,82 @@
+.chart {
+  position: relative;
+  margin: 10px 0;
+}
+.pointer {
+  fill: rgb(12, 131, 211) !important;
+  transform: withTranslation(150px, 120px) rotate(20deg);
+}
+.current-value {
+  font-size: 25px !important;
+  font-weight: normal !important;
+  transform: withTranslation(2px, -25px);
+  color: #000 !important;
+}
+.numbers {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.num {
+  position: absolute;
+  color: #777;
+  font-size: 12px;
+  font-weight: 700;
+}
+.zero {
+  top: 88%;
+  left: 0;
+}
+.one {
+  top: 38%;
+  left: 7%;
+}
+.two {
+  top: 3%;
+  left: 32%;
+}
+.three {
+  top: 3%;
+  right: 32%;
+}
+.four {
+  right: 7%;
+  top: 38%;
+}
+.five {
+  right: -14px;
+  top: 88%;
+}
+.text {
+  width: 73px;
+  height: 20px;
+  position: absolute;
+  font-size: 13px;
+  color: #777;
+  font-weight: 500;
+}
+.text-one {
+  left: 0%;
+  top: 63%;
+  transform: rotate(-69deg) withTranslation(-4px, -17px);
+}
+.text-two {
+  left: 11%;
+  top: 20%;
+  transform: rotate(-38deg) withTranslation(0px, -4px);
+}
+.text-three {
+  left: 38%;
+  top: 3%;
+  transform: rotate(0deg) withTranslation(0px, -6px);
+}
+.text-four {
+  right: 11%;
+  top: 18%;
+  transform: rotate(38deg) withTranslation(0px, 1px);
+}
+.text-five {
+  right: -8%;
+  top: 62%;
+  transform: rotate(72deg) withTranslation(0px, 8px);
+}

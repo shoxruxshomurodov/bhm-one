@@ -1,0 +1,909 @@
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+.katm-text--right {
+    text-align: right;
+}
+
+.text--left {
+    text-align: left;
+}
+
+.katm-text--center {
+    text-align: center;
+}
+
+.text--smaller {
+    font-size: 12px !important;
+}
+
+.katm-text--smaller__item {
+    margin-bottom: 4px;
+}
+
+.text--small {
+    font-size: 14px !important;
+}
+
+.katm-text--medium {
+    font-size: 17px !important;
+}
+
+.katm-text--large {
+    font-size: 21px !important;
+}
+
+.katm-color--blue {
+    color: #004a7f;
+    -webkit-text-size-adjust: none;
+}
+
+.katm-color--grey {
+    color: #7f7f7f;
+    -webkit-text-size-adjust: none;
+}
+
+.katm-color--light-grey {
+    color: #c9c9c9;
+}
+
+.katm-color--black {
+    color: #000000;
+    -webkit-text-size-adjust: none;
+}
+
+.katm-color--white {
+    color: #ffffff;
+    -webkit-text-size-adjust: none;
+}
+
+.katm-bg-orange {
+    background-color: #de8a3e !important;
+}
+
+.katm-bg-gray {
+    background-color: #7f7f7f !important;
+}
+
+.katm-w-100 {
+    width: 100% !important;
+}
+
+.katm-border-none {
+    border: none !important;
+}
+
+.katm-main-page {
+    width: 275mm;
+    min-height: 297mm;
+    margin: 10mm auto;
+    background: white;
+}
+
+.katm-sub-page {
+    padding: 62px 37px 25px 47px;
+    background-color: #ffffff !important;
+}
+
+.katm-sub-page header .katm-header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    border-bottom: 1px solid #004a7f;
+    margin-bottom: 3px;
+    padding: 0 0 6px 7px;
+}
+
+.katm-sub-page header .katm-header-logo {
+    height: 56px;
+}
+.katm-sub-page header .katm-header-logo img {
+    width: 147px;
+}
+
+.katm-sub-page header .katm-header-info .katm-info-title {
+    color: #004a7f;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 15px;
+    text-align: right;
+    margin-bottom: 16px;
+}
+
+.katm-sub-page header .katm-header-info .katm-info-contacts {
+    font-size: 15px;
+    list-style: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0;
+}
+
+.katm-sub-page header .katm-header-info .katm-info-contacts > li {
+    margin-left: 16px;
+}
+.katm-sub-page header .katm-header-info .katm-info-contacts > li:first-child {
+    margin-left: 0px;
+}
+
+.katm-sub-page header .katm-header-info .katm-info-contacts > li > a {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-decoration: none;
+    color: #929292;
+}
+
+.katm-sub-page header .katm-header-info .katm-info-contacts > li > a .svg-icon {
+    fill: white;
+    background-color: #004a7f;
+    padding: 0.7px;
+    margin-right: 6px;
+    border-radius: 50%;
+}
+
+.katm-sub-page #report-info .katm-report-info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin-bottom: 3px;
+    padding: 0 7px;
+}
+
+.katm-sub-page #report-info .katm-report-info__content {
+    list-style: none;
+    font-size: 15px;
+}
+
+.katm-sub-page #report-info .katm-report-info__content li {
+    margin-bottom: 2px;
+}
+
+.katm-sub-page #report-info .katm-report-info__qrcode {
+    width: 64px;
+    height: 64px;
+}
+
+.katm-sub-page .katm-step-row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 9px;
+    font-weight: 600 !important;
+    background-color: #004a7f;
+    color: #ffffff;
+    padding: 3px 7px;
+}
+
+.katm-sub-page .katm-step-row__num {
+    margin-right: 8px;
+    width: 12px;
+}
+
+.katm-sub-page .katm-step-row__type {
+    margin-left: auto;
+    font-weight: 500 !important;
+}
+
+.katm-sub-page .katm-step-line {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+    height: 22px;
+    position: relative;
+    border-top: 1px solid #de8a3e;
+    border-bottom: 1px solid #de8a3e;
+    font-size: 15px;
+    padding: 1.4px 7px 1px;
+    padding-bottom: 1.8px;
+}
+
+.katm-sub-page .katm-step-line__title {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: #004a7f;
+    font-weight: bold;
+}
+
+.katm-sub-page .katm-step-line__info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    color: #929292;
+    margin-left: auto;
+
+}
+
+.katm-sub-page .katm-step-line__count {
+    margin-right: 2px;
+}
+
+.katm-sub-page .katm-subject-info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 10px 8px;
+    padding-bottom: 4px;
+}
+
+.katm-sub-page .katm-subject-info__photo img {
+    margin-right: 17px;
+    border: 1px solid #c9c9c9;
+}
+
+.katm-sub-page .katm-subject-info__keys {
+    font-size: 14px;
+    list-style: none;
+    margin-right: 24px;
+}
+
+.katm-sub-page .katm-subject-info__keys > li {
+    margin-bottom: 3.7px;
+
+}
+
+.katm-sub-page .katm-subject-info__values {
+    font-size: 14px;
+    list-style: none;
+}
+
+.katm-sub-page .katm-subject-info__values > li {
+    margin-bottom: 3.7px;
+}
+
+.katm-sub-page .katm-scoring {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-top: 5px;
+    padding: 0 8px;
+}
+
+.katm-sub-page .katm-scoring-desc {
+    font-size:10px;
+    list-style: none;
+    margin-top: -7px;
+}
+
+.katm-sub-page .katm-scoring-desc > li {
+    margin-bottom: 5px;
+}
+
+.katm-sub-page .katm-scoring-desc > li:last-child {
+    margin-bottom: 0px;
+}
+
+.katm-sub-page .katm-scoring-desc > li > span {
+    display: inline-block;
+    width: 110px !important;
+    color: #004a7f;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.katm-sub-page .katm-scoring-score {
+    position: relative;
+    margin-left: 33px;
+    margin-right: 60px;
+}
+
+.katm-sub-page .katm-scoring-score #score_text {
+    color: #004a7f;
+    font-size: 15px;
+    right: 113px;
+    position: absolute;
+    bottom: 6px;
+}
+
+.katm-sub-page .katm-scoring-score #score_arrow {
+    position: absolute;
+    bottom: -40px;
+    right: 83px;
+}
+
+.katm-sub-page .katm-scoring-ball {
+    text-align: center;
+    padding: 9px 19px;
+    border: 2px solid #004a7f;
+    border-radius: 23px;
+}
+
+.katm-sub-page .katm-scoring-ball__lvl {
+    line-height: 40px;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.katm-sub-page .katm-scoring-ball__title {
+    font-size: 10px;
+}
+
+.katm-sub-page #step-3 .katm-claims {
+    margin: 6px 0;
+    font-size: 15px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.katm-sub-page #step-3 .katm-claims-col .katm-claims-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 3px;
+}
+
+.katm-sub-page #step-3 .katm-claims-col .katm-claims-item__num {
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+    margin-right: 10px;
+}
+
+.katm-sub-page #step-3 .katm-claims-col .katm-claims-item__title {
+    margin-left: 6px;
+}
+
+.katm-sub-page #step-3 .katm-claims-col:nth-child(2) {
+    margin-right: 60px;
+}
+
+.katm-sub-page #step-4 .katm-table-row .katm-table,
+.katm-sub-page #step-5 .katm-table-row .katm-table,
+.katm-sub-page #step-8 .katm-table-row .katm-table,
+.katm-sub-page #step-9 .katm-table-row .katm-table {
+    width: 100%;
+    font-size: 15px;
+    border-collapse: separate;
+    border-spacing: 0;
+}
+
+.katm-sub-page #step-4 .katm-table-row .katm-table th:first-child,
+.katm-sub-page #step-5 .katm-table-row .katm-table th:first-child,
+.katm-sub-page #step-8 .katm-table-row .katm-table th:first-child,
+.katm-sub-page #step-9 .katm-table-row .katm-table th:first-child {
+    text-align: left;
+}
+
+.katm-sub-page #step-4 .katm-table-row .katm-table th,
+.katm-sub-page #step-5 .katm-table-row .katm-table th,
+.katm-sub-page #step-8 .katm-table-row .katm-table th,
+.katm-sub-page #step-9 .katm-table-row .katm-table th {
+    text-transform: uppercase;
+    font-size: 8px;
+    border-bottom: #cbcbcb solid 0.5px;
+    padding: 3px 6px;
+    color: #004a7f;
+}
+
+.katm-sub-page #step-4 .katm-table-row .katm-table th:first-child,
+.katm-sub-page #step-5 .katm-table-row .katm-table th:first-child,
+.katm-sub-page #step-8 .katm-table-row .katm-table th:first-child,
+.katm-sub-page #step-9 .katm-table-row .katm-table th:first-child {
+    width: 21px !important;
+}
+
+.katm-sub-page #step-4 .katm-table-row .katm-table td:first-child,
+.katm-sub-page #step-5 .katm-table-row .katm-table td:first-child,
+.katm-sub-page #step-8 .katm-table-row .katm-table td:first-child,
+.katm-sub-page #step-9 .katm-table-row .table td:first-child {
+    width: 21px !important;
+}
+
+.katm-sub-page #step-4 .katm-table-row .katm-table th:nth-child(2),
+.katm-sub-page #step-5 .katm-table-row .katm-table th:nth-child(2),
+.katm-sub-page #step-8 .katm-table-row .katm-table th:nth-child(2),
+.katm-sub-page #step-9 .katm-table-row .katm-table th:nth-child(2) {
+    padding-left: 6px;
+}
+.katm-sub-page #step-4 .katm-table-row .katm-table td:nth-child(2),
+.katm-sub-page #step-5 .katm-table-row .katm-table td:nth-child(2),
+.katm-sub-page #step-8 .katm-table-row .katm-table td:nth-child(2),
+.katm-sub-page #step-9 .katm-table-row .katm-table td:nth-child(2) {
+    padding-left: 6px;
+}
+
+.katm-sub-page #step-8 .katm-table-row .katm-table th:nth-child(2) {
+    padding-right: 0px;
+}
+
+.katm-sub-page #step-8 .katm-table-row .katm-table td:nth-child(2) {
+    padding-right: 0px;
+}
+
+.katm-sub-page #step-8 .katm-table-row .katm-table th:nth-child(4) {
+    padding-right: 0px;
+}
+
+.katm-sub-page #step-8 .katm-table-row .katm-table td:nth-child(4) {
+    padding-right: 0px;
+}
+
+.katm-sub-page #step-8 .katm-table-row .katm-table th:nth-child(5) {
+    padding-left: 0px;
+}
+
+.katm-sub-page #step-8 .katm-table-row .katm-table td:nth-child(5) {
+    padding-left: 0px;
+}
+
+.katm-sub-page #step-4 .katm-table-row .katm-table td,
+.katm-sub-page #step-5 .katm-table-row .katm-table td,
+.katm-sub-page #step-8 .katm-table-row .katm-table td,
+.katm-sub-page #step-9 .katm-table-row .katm-table td {
+    padding: 1.5px 6px;
+    border-bottom: 0.5px solid #cbcbcb;
+}
+
+.katm-sub-page #step-4 .katm-table-row .katm-table tr:last-child td,
+.katm-sub-page #step-5 .katm-table-row .katm-table tr:last-child td,
+.katm-sub-page #step-8 .katm-table-row .katm-table tr:last-child td,
+.katm-sub-page #step-9 .katm-table-row .katm-table tr:last-child td {
+    border: none;
+    padding-bottom: 2px;
+}
+
+.katm-sub-page #step-4 .katm-table th:nth-child(2) {
+    width: 90px;
+    padding-left: 0;
+}
+
+.katm-sub-page #step-4 .katm-table td:nth-child(2) {
+    width: 90px;
+    padding-left: 0;
+}
+
+.katm-sub-page #step-4 .katm-table td:nth-child(2) {
+    width: 396px;
+}
+
+.katm-sub-page #step-5 .katm-table th:nth-child(2) {
+    width: 90px;
+    padding-left: 0;
+}
+
+.katm-sub-page #step-5 .katm-table td:nth-child(2) {
+    width: 90px;
+    padding-left: 0;
+}
+
+.katm-sub-page #step-5 .katm-table td:nth-child(2) {
+    width: 360px;
+}
+
+#step-4 > table > thead > tr > th:last-child,
+#step-5 > table > thead > tr > th:last-child,
+#step-8 > table > thead > tr > th:last-child,
+#step-9 > table > thead > tr > th:last-child {
+    padding-right: 6px !important;
+}
+
+.katm-sub-page #step-4 .katm-table-row .katm-table tr:first-child td {
+    background-color: #f2f2f2 !important;
+    font-weight: bold !important;
+}
+
+.katm-sub-page #step-6 .katm-list,
+.katm-sub-page #step-7 .katm-list,
+.katm-sub-page #step-10 .list {
+    font-size: 13px;
+    padding: 0 7px;
+    margin: 6px 0;
+    margin-bottom: 6px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.katm-sub-page #step-6 .katm-list-col,
+.katm-sub-page #step-7 .katm-list-col,
+.katm-sub-page #step-10 .katm-list-col {
+    width: 50%;
+}
+
+.katm-sub-page #step-10 .katm-list-col {
+    text-align: justify;
+}
+
+.katm-sub-page #step-10 .katm-list-col .katm-item {
+    margin-bottom: -1px !important;
+}
+
+.katm-sub-page #step-6 .katm-list-col .katm-item,
+.katm-sub-page #step-7 .katm-list-col .katm-item,
+.katm-sub-page #step-10 .katm-list-col .item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 1px;
+}
+
+.katm-sub-page #step-6 .katm-list-col .katm-item-num,
+.katm-sub-page #step-7 .katm-list-col .katm-item-num,
+.katm-sub-page #step-10 .katm-list-col .katm-item-num {
+    width: 12px;
+    margin-right: 8px;
+}
+
+.katm-sub-page #step-6 .katm-list-col .katm-item-title b,
+.katm-sub-page #step-7 .katm-list-col .katm-item-title b,
+.katm-sub-page #step-10 .katm-list-col .katm-item-title b {
+    margin-left: 3px;
+}
+
+.katm-sub-page #step-6 .katm-list-col .katm-item-title span,
+.katm-sub-page #step-7 .katm-list-col .katm-item-title span,
+.katm-sub-page #step-10 .katm-list-col .katm-item-title span {
+    margin-left: 3px;
+}
+
+.katm-sub-page .katm-forecast {
+    font-size: 8px;
+    padding: 6px 0;
+    padding-bottom: 4px;
+}
+
+.katm-sub-page .katm-forecast-table {
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+.katm-sub-page .katm-forecast-table th {
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-bottom: 6px;
+    color: #004a7f;
+}
+
+.katm-sub-page .katm-forecast-table td {
+    border: 0.5px solid #cbcbcb;
+    border-top: 1px solid #cbcbcb;
+    border-bottom: 1px solid #cbcbcb;
+    border-left: 1px solid #cbcbcb;
+    border-right: 1px solid #cbcbcb;
+    width: 70px;
+    padding: 2px 0;
+}
+
+.katm-sub-page .katm-forecast-table .katm-empty {
+    border: none;
+}
+
+.katm-sub-page .katm-repayment {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.katm-sub-page .katm-repayment-table {
+    font-size: 15px;
+    border-collapse: separate;
+    border-spacing: 0;
+}
+
+.katm-sub-page .katm-repayment-table thead {
+    font-size: 8px;
+    color: #004a7f;
+}
+
+.katm-sub-page .katm-repayment-table thead th {
+    padding: 6px 7px 4px;
+}
+
+.katm-sub-page .katm-repayment-table thead th:nth-child(1) {
+    width: 80px;
+    text-align: center;
+}
+
+.katm-sub-page .katm-repayment-table thead th:nth-child(2) {
+    width: 90px;
+}
+
+.katm-sub-page .katm-repayment-table thead th:nth-child(3) {
+    width: 94px;
+}
+
+.katm-sub-page .katm-repayment-table thead th:nth-child(4) {
+    width: 80px;
+}
+
+.katm-sub-page .katm-repayment-table tbody td {
+    border-top: #cbcbcb solid 0.5px;
+    padding: 1.5px 4px 1.5px;
+}
+
+.katm-sub-page .katm-repayment-table tbody td:nth-child(1) {
+    width: 80px;
+    text-align: center;
+}
+
+.katm-sub-page .katm-repayment-table tbody td:nth-child(2) {
+    width: 90px;
+}
+
+.katm-sub-page .katm-repayment-table tbody td:nth-child(3) {
+    width: 80px;
+}
+
+.katm-sub-page .katm-repayment-table tbody td:nth-child(4) {
+    width: 80px;
+    padding-right: 7px;
+}
+
+.katm-sub-page .katm-overdue {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.katm-sub-page .katm-overdue-table {
+    font-size: 15px;
+    border-collapse: separate;
+    border-spacing: 0;
+}
+
+.katm-sub-page .katm-overdue-table thead {
+    font-size: 8px;
+    color: #004a7f;
+}
+
+.katm-sub-page .katm-overdue-table thead th {
+    padding: 6px 7px 4px;
+}
+
+.katm-sub-page .katm-overdue-table thead th:nth-child(1) {
+    width: 20px;
+    text-align: center;
+}
+
+.katm-sub-page .katm-overdue-table thead th:nth-child(2) {
+    width: 104px;
+}
+
+.katm-sub-page .katm-overdue-table thead th:nth-child(3) {
+    width: 40px;
+    text-align: center;
+}
+
+.katm-sub-page .katm-overdue-table thead th:nth-child(4) {
+    width: 80px;
+}
+
+.katm-sub-page .katm-overdue-table tbody td {
+    border-top: #cbcbcb solid 0.5px;
+    padding: 1px 4px;
+}
+
+.katm-sub-page .katm-overdue-table tbody td:nth-child(1) {
+    width: 20px;
+    text-align: center;
+}
+
+.katm-sub-page .katm-overdue-table tbody td:nth-child(2) {
+    width: 100px;
+    text-align: center;
+}
+
+.katm-sub-page .katm-overdue-table tbody td:nth-child(3) {
+    width: 40px;
+    text-align: center;
+}
+
+.katm-sub-page .katm-overdue-table tbody td:nth-child(4) {
+    width: 80px;
+}
+
+.katm-sub-page .katm-overdue-table tbody td:nth-child(5) {
+    color: #929292;
+    /* text-align: center; */
+}
+
+.katm-sub-page .katm-no-data {
+    height: 16px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.katm-sub-page #step-8 .katm-table th:nth-child(1) {
+    width: auto;
+}
+
+.katm-sub-page #step-8 .katm-table th:nth-child(2) {
+    width: 88px;
+    padding-left: 0;
+}
+
+.katm-sub-page #step-8 .katm-table td:nth-child(2) {
+    width: 88px;
+    padding-left: 0;
+}
+
+.katm-sub-page #step-8 div:nth-child(5) > table th:nth-child(2) {
+    width: 106px;
+    padding-right: 0;
+}
+
+.katm-sub-page #step-8 div:nth-child(5) > table th:nth-child(4) {
+    padding-right: 0;
+}
+
+.katm-sub-page #step-8 div:nth-child(5) > table td:nth-child(4) {
+    padding-right: 0;
+}
+
+.katm-sub-page #step-9 .katm-table {
+    font-size: 15px;
+}
+
+.katm-sub-page #step-9 .katm-table th:nth-child(1) {
+    width: auto;
+}
+
+.katm-sub-page #step-9 .katm-table th:nth-child(2) {
+    width: 60px !important;
+    padding-left: 0;
+}
+
+.katm-sub-page #step-9 .katm-table td:nth-child(2) {
+    width: 60px !important;
+    padding-left: 0;
+}
+
+.katm-sub-page #step-9 .katm-table th:nth-child(3) {
+    width: 60px !important;
+    padding-left: 0;
+}
+
+.katm-sub-page #step-9 .katm-table td:nth-child(3) {
+    width: 60px !important;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.katm-sub-page #step-10 .katm-list-col .katm-item {
+    font-size: 15px;
+    line-height: 160%;
+
+}
+
+.katm-sub-page #step-10 .katm-list-col .katm-item .katm-item-title {
+    width: 676px;
+}
+
+.katm-sub-page #step-5 .katm-table-row .katm-table td:nth-child(4) {
+    width: 74px;
+}
+
+.katm-sub-page #step-5 .katm-table-row .katm-table td:nth-child(5) {
+    width: 54px;
+}
+.katm-sub-page #step-5 .katm-table-row .katm-table td:nth-child(6) {
+    width: 68px;
+}
+.katm-sub-page #step-5 .katm-table-row .katm-table td:nth-child(7) {
+    width: 74px;
+}
+
+.katm-sub-page #step-3 .katm-claims-col {
+    width: 55%;
+}
+
+.katm-sub-page #step-3 .katm-claims-col:nth-child(2) {
+    margin-right: 10px;
+}
+
+.katm-overdue-table {
+    width: 344px;
+}
+
+.katm-sub-page .katm-overdue-table thead th:nth-child(2) {
+    width: 107px;
+}
+.katm-sub-page .katm-overdue-table thead th:nth-child(3) {
+    padding-left: 0px;
+}
+.katm-sub-page .katm-overdue-table thead th:nth-child(4) {
+    padding-left: 0px;
+}
+.katm-sub-page .katm-overdue-table thead th:nth-child(5) {
+    width: 102px;
+}
+
+@page {
+    size: A4;
+    margin: 0;
+}
+.katm-photo {
+    max-width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    margin: 0px !important;
+}
+.katm-bottom {
+    font-size: 10px;
+}
+.empty-td {
+    border: none !important;
+}
+@media print {
+    html,
+    body {
+        width: 210mm;
+        height: 297mm;
+        -webkit-print-color-adjust: exact;
+        background-color: #ffffff;
+    }
+    .katm-main-page {
+        margin: 0;
+        border: initial;
+        border-radius: initial;
+        width: initial;
+        min-height: initial;
+        -webkit-box-shadow: initial;
+        box-shadow: initial;
+
+        page-break-after: always;
+        background-color: #ffffff;
+    }
+
+    .katm-sub-page {
+        background-color: #ffffff;
+    }
+    #step-6
+    > div.katm-forecast
+    > table
+    > tbody:nth-child(2)
+    > tr
+    > td.katm-color--blue.katm-border-none {
+        width: 266px !important;
+    }
+}
